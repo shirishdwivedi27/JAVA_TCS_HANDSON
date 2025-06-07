@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class courseProgram {
+public class courseProgram{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Course[] course = new Course[4];
