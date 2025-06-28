@@ -58,19 +58,22 @@ class child2 extends Pran_2_chil_1 {
 
 // Heirarichal inheritance
 class Parent {
-
+    void main_f() {
+        System.out.println("this is the main function which is act as parent");
+    }
 }
 
 class child1 extends Parent {
-
+    void paren() {
+        main_f();
+        System.out.println("hey");
+    }
 }
 
 class childd2 extends Parent {
-
-}
-
-class child3 extends Parent {
-
+    void run1() {
+        main_f();
+    }
 }
 
 public class inher_pra {
@@ -82,5 +85,9 @@ public class inher_pra {
         a.meow();
         child2 cc = new child2();
         cc.last_show();
+        child1 c1 = new child1();
+        c1.paren();
+        childd2 c2 = new childd2();
+        c2.run1();
     }
 }
