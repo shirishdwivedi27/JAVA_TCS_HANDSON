@@ -5,11 +5,11 @@
 
     Create a class Student with:
 
-    static college name
+        static college name
 
-    instance variables: name, roll
+        instance variables: name, roll
 
-    Show that all students share same college
+        Show that all students share same college
 */
 class MathUtil {
     static int a = 12;
